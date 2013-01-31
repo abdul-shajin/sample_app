@@ -7,6 +7,11 @@ gem 'rails', '3.2.3'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.11.0'
+  gem 'guard-rspec', '1.2.1'
+  gem 'rb-inotify', '~> 0.8.8'
+  gem 'libnotify', '0.5.9'
+  gem 'spork', '0.9.2'
+  gem 'guard-spork'
 end
 
 
